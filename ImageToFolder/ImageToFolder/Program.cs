@@ -15,7 +15,6 @@ namespace ImageToFolder
             // 특정 폴더의 모든 파일 정보 읽어오기
             FileInfo[] infos = d.GetFiles();
 
-            // 파일 정보를 반복하면서 파일의 이름으로 5자까지만 생성해서 이동
             int folderCount = 1;
             int count = 1;
             foreach (FileInfo f in infos)
